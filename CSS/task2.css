@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #ff8800;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+}
+
+.logo {
+    /* margin-top: 1px; */
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    background: #e67a00;
+    padding-top: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu a {
+    margin-left: 50px;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 18px;
+}
+.banner {
+    background: url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+
+}
+.banner h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 150px;
+    text-shadow: 2px 2px #222;
+}
+.banner h3 {
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    position: relative;
+    top: 165px;
+    font-family:sans-serif;
+}
+.banner input{
+    width: 600px;
+    /* height: 38px; */
+    outline: none;
+    /* background: #000000bd; */
+    border: medium;
+    height: 38px;
+    font-size: 17px;
+    padding-left: 12px;
+    color: white;
+    position: relative;
+    top: 150px;
+    background: rgba(0,0,0,.5) none repeat scroll 0 0;
+    
+}
+::placeholder{
+    color: white;
+}
+.banner input:hover{
+    background: rgba(120, 109, 109, 0.5);
+    transition: 1s;
+    
+}
+.sci {
+    text-align: center;
+    font-size: 42px;
+    color: rgb(12, 11, 11);
+    position: relative;
+    top: 40px;
+
+}
+
+.exp {
+    text-align: center;
+    font-size: 21px;
+    color: black;
+    position: relative;
+    top: 55px;
+}
+
+.d1 {
+    border: .5px solid black;
+    width: 391px;
+    height: 265px;
+    float: left;
+    margin-top: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    /* padding: 10px 10px; */
+}
+
+.i1 {
+    width: 391px;
+    height: 265px;
+    padding: 5px 5px;
+}
+
+.d2 {
+    border: .5px solid black;
+    width: 391px;
+    height: 265px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.d3 {
+    border: .5px solid black;
+    width: 391px;
+    height: 265px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.d4 {
+    border: .5px solid black;
+    width: 391px;
+    height: 265px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+center a {
+    position: relative;
+    top: 56px;
+    border-radius: 30px;
+    font-size: 24px;
+    padding: 10px 30px;
+    background-color: #f80;
+    border-color: #e67a00;
+    text-decoration: none;
+    color: white;
+
+}
+
+center p {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    top: 96px;
+    font-style: italic;
+    font-size: 27px;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+}
+
+.n1 {
+    position: relative;
+    top: -40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+footer{
+    background: #f7f7f7;
+    width: 100%;
+    height: 200px;
+    
+}
+.d5{
+    text-align: center;
+    top: 135;
+    margin: auto;
+    width: 100%;
+    height: 250px;
+    border: 2px solid #f7f7f7 ;
+    margin-top: 131px;
+    background: #f7f7f7;
+}
+.d5 p{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+footer p{
+    color: #e67a00;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.spy{
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+.f1{
+    color: #e67a00;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.f2{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
